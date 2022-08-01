@@ -1,10 +1,13 @@
 import MainPage from './Components/MainPage';
-import './App.css';
+import Sidebar from './Components/Sidebar'
+import Sidebar2 from './Components/Sidebar2'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <MainPage />
+      <Sidebar></Sidebar>
+      <Sidebar2></Sidebar2>
     </div>
   );
 }
