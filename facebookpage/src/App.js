@@ -1,13 +1,14 @@
 import MainPage from './Components/MainPage';
-import Sidebar from './Components/Sidebar'
-import Sidebar2 from './Components/Sidebar2'
+import Sidebar from './Components/Sidebar';
+import ActivityBar from './Components/ActivityBar'
+
 
 function App() {
   return (
     <div>
       <MainPage />
       <Sidebar></Sidebar>
-      <Sidebar2></Sidebar2>
+      <ActivityBar align="right"/>
     </div>
   );
 }
